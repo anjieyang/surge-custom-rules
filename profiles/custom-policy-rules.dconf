@@ -1,0 +1,3 @@
+[Rule]
+# Spotify
+RULE-SET,https://raw.githubusercontent.com/anjieyang/surge-custom-rules/main/rulesets/spotify.list,🇺🇸 美国 07,extended-matching
