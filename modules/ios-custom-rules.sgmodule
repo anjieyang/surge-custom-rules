@@ -3,6 +3,9 @@
 #!system=ios
 
 [Rule]
+# Amap
+DOMAIN,amap-aos-info-nogw.amap.com,REJECT
+
 # WeChat
 DOMAIN-SUFFIX,wechat.com,DIRECT,extended-matching
 DOMAIN-SUFFIX,weixin.qq.com,DIRECT,extended-matching
