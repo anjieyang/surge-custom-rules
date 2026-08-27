@@ -1,0 +1,11 @@
+#!name=自定义规则（iOS）
+#!desc=集中维护 Surge iOS 的个人规则覆盖，按应用或服务分组管理。
+#!system=ios
+
+[Rule]
+# WeChat
+DOMAIN-SUFFIX,wechat.com,DIRECT,extended-matching
+DOMAIN-SUFFIX,weixin.qq.com,DIRECT,extended-matching
+DOMAIN-SUFFIX,wx.qq.com,DIRECT,extended-matching
+DOMAIN-SUFFIX,qpic.cn,DIRECT,extended-matching
+DOMAIN-SUFFIX,qlogo.cn,DIRECT,extended-matching
