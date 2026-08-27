@@ -28,11 +28,8 @@
 
 Surge Module 不能把规则指向订阅中的自定义代理节点，因此 Spotify 使用 Rule Set，并由本地链接配置选择对应的美国节点。
 
-- 策略映射：[`profiles/custom-policy-rules.dconf`](profiles/custom-policy-rules.dconf)
-
 ## 维护约定
 
 - `modules/` 存放 Surge Module。
 - `rulesets/` 存放需要由本地配置指定代理策略的 Rule Set。
-- `profiles/` 存放不含节点凭据的链接配置片段。
 - 不在公开仓库中保存节点、订阅地址、令牌或其他凭据。
