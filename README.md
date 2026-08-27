@@ -15,6 +15,8 @@
 
 高德地图的开屏广告规则需要 Surge 的 MITM 功能，并信任 Surge CA 证书；解密范围仅包含 `m5.amap.com`。
 
+模块同时使用系统 DNS、阿里 DNS 和 Cloudflare DNS，并关闭 Surge 的 IPv6 解析与 IPv6 VIF，以减少 iOS 在网络切换后显示已连接但无法联网的情况。
+
 ## 维护约定
 
 - `modules/` 存放 Surge Module。
