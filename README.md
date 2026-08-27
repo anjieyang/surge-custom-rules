@@ -17,8 +17,19 @@
 
 模块同时使用系统 DNS、阿里 DNS 和 Cloudflare DNS，并关闭 Surge 的 IPv6 解析与 IPv6 VIF，以减少 iOS 在网络切换后显示已连接但无法联网的情况。
 
+## Spotify 规则集
+
+- Rule Set：[`rulesets/spotify.list`](rulesets/spotify.list)
+- 远程 URL：
+
+  ```text
+  https://raw.githubusercontent.com/anjieyang/surge-custom-rules/main/rulesets/spotify.list
+  ```
+
+Surge Module 不能把规则指向订阅中的自定义代理节点，因此 Spotify 使用 Rule Set，并由本地链接配置选择对应的美国节点。
+
 ## 维护约定
 
 - `modules/` 存放 Surge Module。
-- 以后需要指定代理策略组的规则时，再增加 `rulesets/`。
+- `rulesets/` 存放需要由本地配置指定代理策略的 Rule Set。
 - 不在公开仓库中保存节点、订阅地址、令牌或其他凭据。

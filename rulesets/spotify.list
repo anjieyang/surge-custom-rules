@@ -1,0 +1,7 @@
+# NAME: Spotify
+# DESC: Route Spotify app, API, audio, artwork, and Canvas video traffic with one policy.
+
+DOMAIN-KEYWORD,spotify
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,spoti.fi
