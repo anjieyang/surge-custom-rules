@@ -5,6 +5,7 @@
 [Rule]
 # Amap
 DOMAIN,amap-aos-info-nogw.amap.com,REJECT
+DOMAIN,optimus-ads.amap.com,REJECT
 
 # WeChat
 DOMAIN-SUFFIX,wechat.com,DIRECT,extended-matching
