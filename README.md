@@ -17,6 +17,8 @@
 
 模块同时使用系统 DNS、阿里 DNS 和 Cloudflare DNS，并关闭 Surge 的 IPv6 解析与 IPv6 VIF，以减少 iOS 在网络切换后显示已连接但无法联网的情况。
 
+模块将小红书主站、图片和视频 CDN 固定为直连，避免部分 `rednotecdn.com` 请求落入代理配置的 `FINAL` 策略而绕行境外节点。
+
 ## Spotify 规则集
 
 - Rule Set：[`rulesets/spotify.list`](rulesets/spotify.list)

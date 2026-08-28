@@ -9,6 +9,12 @@ ipv6 = false
 ipv6-vif = disabled
 
 [Rule]
+# Xiaohongshu / RedNote
+DOMAIN-SUFFIX,xiaohongshu.com,DIRECT,extended-matching
+DOMAIN-SUFFIX,xhscdn.com,DIRECT,extended-matching
+DOMAIN-SUFFIX,rednotecdn.com,DIRECT,extended-matching
+DOMAIN,gslb.rnote.com,DIRECT,extended-matching
+
 # Amap
 DOMAIN,amap-aos-info-nogw.amap.com,REJECT
 DOMAIN,optimus-ads.amap.com,REJECT
