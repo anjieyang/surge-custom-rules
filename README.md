@@ -19,6 +19,8 @@
 
 模块将小红书主站、图片和视频 CDN 固定为直连，避免部分 `rednotecdn.com` 请求落入代理配置的 `FINAL` 策略而绕行境外节点。
 
+订阅供应商的更新入口与规则资源固定为直连；供应商的限时更新开关仍需在其网页手动开启。
+
 ## Spotify 规则集
 
 - Rule Set：[`rulesets/spotify.list`](rulesets/spotify.list)

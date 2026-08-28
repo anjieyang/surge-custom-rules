@@ -9,6 +9,10 @@ ipv6 = false
 ipv6-vif = disabled
 
 [Rule]
+# Subscription provider
+DOMAIN,weibo.sslinks.xyz,DIRECT,extended-matching
+DOMAIN,douyin.sslinks.co.in,DIRECT,extended-matching
+
 # Xiaohongshu / RedNote
 DOMAIN-SUFFIX,xiaohongshu.com,DIRECT,extended-matching
 DOMAIN-SUFFIX,xhscdn.com,DIRECT,extended-matching
