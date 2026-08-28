@@ -1,6 +1,6 @@
 # Surge Custom Rules
 
-个人维护的 Surge 自定义规则。iPhone 安装一次远程 Module 后，后续更新继续使用同一个 URL。
+个人维护的 Surge 自定义规则。iPhone 安装一次远程 Module 后，后续更新继续使用同一个 URL。Module 不包含机场域名、节点名或策略名，可以在不同订阅配置之间复用。
 
 ## iOS 自定义规则
 
@@ -19,8 +19,6 @@
 
 模块将小红书主站、图片和视频 CDN 固定为直连，避免部分 `rednotecdn.com` 请求落入代理配置的 `FINAL` 策略而绕行境外节点。
 
-订阅供应商的更新入口与规则资源固定为直连；供应商的限时更新开关仍需在其网页手动开启。
-
 ## Spotify 规则集
 
 - Rule Set：[`rulesets/spotify.list`](rulesets/spotify.list)
@@ -30,7 +28,7 @@
   https://raw.githubusercontent.com/anjieyang/surge-custom-rules/main/rulesets/spotify.list
   ```
 
-Surge Module 不能把规则指向订阅中的自定义代理节点，因此 Spotify 使用 Rule Set，并由本地链接配置选择对应的美国节点。
+该 Rule Set 仅用于没有独立 Spotify 策略组的旧配置。MESL 已内置 `🎵 Spotify` 组，直接在 Surge 中选择美国节点即可，不需要把 Spotify 规则加入 Module。
 
 ## 维护约定
 

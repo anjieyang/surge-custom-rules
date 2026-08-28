@@ -1,5 +1,5 @@
 #!name=自定义规则（iOS）
-#!desc=集中维护 Surge iOS 的个人规则覆盖，按应用或服务分组管理。
+#!desc=跨订阅复用的 iOS 网络稳定、高德、小红书和微信规则。
 #!system=ios
 
 [General]
@@ -9,10 +9,6 @@ ipv6 = false
 ipv6-vif = disabled
 
 [Rule]
-# Subscription provider
-DOMAIN,weibo.sslinks.xyz,DIRECT,extended-matching
-DOMAIN,douyin.sslinks.co.in,DIRECT,extended-matching
-
 # Xiaohongshu / RedNote
 DOMAIN-SUFFIX,xiaohongshu.com,DIRECT,extended-matching
 DOMAIN-SUFFIX,xhscdn.com,DIRECT,extended-matching
